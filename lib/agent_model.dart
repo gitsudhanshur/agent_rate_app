@@ -9,7 +9,6 @@ class Agent {
     required this.city,
   });
 
-  // Factory method to create an Agent from JSON
   factory Agent.fromJson(Map<String, dynamic> json) {
     final agentDetails = json['sectionData']['Agent Details'];
     return Agent(
